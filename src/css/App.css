@@ -1,0 +1,97 @@
+.word-break-all {
+  word-break: break-all;
+}
+
+.has-same-height .card {
+  height: 320px;
+  overflow: hidden;
+}
+
+.card-content h3 {
+  text-align: center;
+}
+
+#profile,
+#profile .card-content {
+  height: inherit;
+}
+
+.table-profile td,
+th {
+  border: none !important;
+}
+
+.table-profile td:first-of-type {
+  font-weight: bold;
+}
+
+#profile-picture .card-image,
+#profile-picture .card-image .image {
+  width: inherit;
+  height: inherit;
+}
+
+#profile-picture .card-image .image img {
+  width: inherit;
+  height: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills-content .media {
+  margin: 0 !important;
+  padding: 4px !important;
+  border: 0 !important;
+}
+
+.skills-content .progress {
+  height: 4px !important;
+}
+
+.custom-tags {
+  text-align: center !important;
+  display: block;
+}
+
+.portfolio-container .card {
+  margin-bottom: 2em;
+}
+
+.section-heading {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 6em;
+}
+
+.can-open-content {
+  cursor: pointer;
+  color: #3273dc;
+  text-decoration: none;
+}
+
+.can-open-content:hover {
+  color: #363636;
+}
+
+.show-more-projects-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.hide-projects-button {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#project-modal .modal-card header {
+  display: block;
+}
+
+#project-modal .modal-card header .delete {
+  float: right;
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "technology": "C#",
+    "degreeOfSkill": "80"
+  },
+  {
+    "technology": "Java",
+    "degreeOfSkill": "50"
+  },
+  {
+    "technology": "HTML5/CSS",
+    "degreeOfSkill": "70"
+  },
+  {
+    "technology": "JavaScript",
+    "degreeOfSkill": "70"
+  },
+  {
+    "technology": "Databases",
+    "degreeOfSkill": "60"
+  }
+]
