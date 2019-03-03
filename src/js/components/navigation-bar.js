@@ -17,10 +17,10 @@ class NavigationBar extends Component {
 
   render() {
     return (
-      <nav class="navbar is-link is-fixed-top">
-        <div class="navbar-brand">
+      <nav className="navbar is-link is-fixed-top">
+        <div className="navbar-brand">
           <div
-            class="navbar-burger burger"
+            className="navbar-burger burger"
             data-target="navbarTransparent"
             onClick={this.clickBurgerMenu}
           >
@@ -28,11 +28,11 @@ class NavigationBar extends Component {
           </div>
         </div>  
 
-        <div id="navbarTransparent" class="navbar-menu">
-          <div class="navbar-end">
+        <div id="navbarTransparent" className="navbar-menu">
+          <div className="navbar-end">
             {
               barItems.map((e, i) => 
-                <NavigationBarItem jsonData={e} />
+                <NavigationBarItem key={e.link} jsonData={e} />
             )}
           </div>
         </div>
