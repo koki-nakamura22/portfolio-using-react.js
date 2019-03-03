@@ -3,6 +3,7 @@ import 'bulma/css/bulma.css';
 import './../css/App.css';
 import NavigationBar from './components/navigation-bar';
 import Header from './components/header';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {
@@ -13,6 +14,9 @@ class App extends Component {
 
         {/* Header */}
         <Header />
+
+        {/* Footer */}
+        <Footer />
       </div>
     );
   }
