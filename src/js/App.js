@@ -6,6 +6,7 @@ import Header from './components/header';
 import About from './components/about'
 import SkillsTags from './components/skills-tags';
 import Services from './components/services';
+import Resume from './components/resume';
 import Footer from './components/footer';
 
 class App extends Component {
@@ -21,6 +22,8 @@ class App extends Component {
         <SkillsTags />
 
         <Services />
+
+        <Resume />
 
         <Footer />
       </div>
