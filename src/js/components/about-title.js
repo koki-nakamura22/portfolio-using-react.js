@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Utils from './../utils/utils';
 import aboutTitleData from './../../json/about-title.json';
+import './../../css/aboutTitle.css'
 
 class AboutTitle extends Component {
   render() {
@@ -11,8 +12,13 @@ class AboutTitle extends Component {
           <h3 className="title is-2">{Utils.escapeHtml(aboutTitleData.title)}</h3>
           <h4 className="subtitle is-5">{Utils.escapeHtml(aboutTitleData.subTitle)}</h4>
           <div className="container">
-              <span dangerouslySetInnerHTML={{__html: Utils.arrayToHtml(aboutTitleData.selfIntroduction)}}>
-              </span>
+            {
+              aboutTitleData.selfIntroduction.map((e, i) => {
+                return (
+                  <span key={i}>{e}</span>
+                );
+              })
+            }
           </div>
         </div>
       </div>
