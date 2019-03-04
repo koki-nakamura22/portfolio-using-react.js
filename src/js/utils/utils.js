@@ -14,17 +14,28 @@ export default class Utils {
     }
   }
 
-  static escapeHtml(str){
-    str = str.replace(/&/g, '&amp;');
-    str = str.replace(/>/g, '&gt;');
-    str = str.replace(/</g, '&lt;');
-    str = str.replace(/"/g, '&quot;');
-    str = str.replace(/'/g, '&#x27;');
-    str = str.replace(/`/g, '&#x60;');
+  static escapeHtml(str) {
+    str = str.replace(/&/g, "&amp;");
+    str = str.replace(/>/g, "&gt;");
+    str = str.replace(/</g, "&lt;");
+    str = str.replace(/"/g, "&quot;");
+    str = str.replace(/'/g, "&#x27;");
+    str = str.replace(/`/g, "&#x60;");
     return str;
   }
 
   static convEmptyStrToNothing(str) {
     return str === "" ? "Nothing" : str;
+  }
+
+  static devideArray(baseArr, numOfDiv) {
+    let baseArrLen = baseArr.length;
+    let newArr = [];
+    for (var i = 0; i < Math.ceil(baseArrLen / numOfDiv); i++) {
+      var j = i * numOfDiv;
+      var p = baseArr.slice(j, j + numOfDiv);
+      newArr.push(p);
+    }
+    return newArr;
   }
 }

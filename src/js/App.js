@@ -5,6 +5,7 @@ import NavigationBar from './components/navigation-bar';
 import Header from './components/header';
 import About from './components/about'
 import SkillsTags from './components/skills-tags';
+import Services from './components/services';
 import Footer from './components/footer';
 
 class App extends Component {
@@ -18,6 +19,8 @@ class App extends Component {
         <About />
 
         <SkillsTags />
+
+        <Services />
 
         <Footer />
       </div>
