@@ -7,12 +7,12 @@ class SkillsTags extends Component {
     let skillTagList = [];
     for (let skillsTag of skillsTagsData) {
       skillTagList.push(
-        <span class="tag is-light">{Utils.escapeHtml(skillsTag.skill)}</span>
+        <span key={Utils.escapeHtml(skillsTag.skill)} className="tag is-light">{Utils.escapeHtml(skillsTag.skill)}</span>
       );  
     }
 
     return (
-      <div class="tags custom-tags">
+      <div className="tags custom-tags">
         { skillTagList }
       </div>
     );
