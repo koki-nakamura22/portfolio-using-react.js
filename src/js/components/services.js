@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Utils from './../utils/utils';
 import servicesData from './../../json/services.json';
+import './../../css/services.css';
 
 class Services extends Component {
   render() {
@@ -18,8 +19,15 @@ class Services extends Component {
                   <div className="box">
                     <div className="content">
                       <h4 className="title is-5">{Utils.escapeHtml(e.title)}</h4>
-                      <span dangerouslySetInnerHTML={{__html: Utils.arrayToHtml(e.detail)}}>
-                      </span>
+                      {
+                        e.detail instanceof Array ?
+                          e.detail.map((e2, i2) => {
+                            return (
+                              <span key={"" + i + i2}>{e2}</span>
+                            );
+                          }) :
+                          <span>{e.detail}</span>
+                      }
                     </div>
                   </div>
                 </div>
