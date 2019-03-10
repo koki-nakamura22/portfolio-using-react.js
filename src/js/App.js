@@ -7,6 +7,7 @@ import About from './components/about'
 import SkillsTags from './components/skills-tags';
 import Services from './components/services';
 import Resume from './components/resume';
+import Contract from './components/contact';
 import Footer from './components/footer';
 
 class App extends Component {
@@ -24,6 +25,8 @@ class App extends Component {
         <Services />
 
         <Resume />
+
+        <Contract />
 
         <Footer />
       </div>
