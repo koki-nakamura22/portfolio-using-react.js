@@ -33,7 +33,7 @@ class ProjectsItem extends Component {
           </header>
             
           <div className="card-content">
-            <div id="content" style={{whiteSpace: 'pre-line'}}>
+            <div id="content" className="whitespace-pre-line">
               <div>
                 <strong>{Utils.escapeHtml(labels.summary)}</strong>
                 <p>{Utils.arrayToHtml(this.projectData.summary)}</p>

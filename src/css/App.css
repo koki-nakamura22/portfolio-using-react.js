@@ -2,6 +2,10 @@
   word-break: break-all;
 }
 
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+
 .has-same-height .card {
   height: 320px;
   overflow: hidden;

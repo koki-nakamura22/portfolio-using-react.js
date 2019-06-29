@@ -82,7 +82,7 @@ class ProjectsItemModal extends Component {
             ></button>
           </header>
           <section className="modal-card-body">
-            <div className="content" style={{whiteSpace: 'pre-line'}}>
+            <div className="content whitespace-pre-line">
               { contents }
             </div>
           </section>
