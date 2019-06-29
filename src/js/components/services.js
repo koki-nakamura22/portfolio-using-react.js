@@ -40,7 +40,7 @@ class Services extends Component {
     }
 
     return (
-      <div className="section">
+      <div id="services" className="section">
         <div className="section-heading">
           <h3 className="title is-2">{Utils.escapeHtml(servicesData.title)}</h3>
           <h4 className="subtitle is-5">{Utils.escapeHtml(servicesData.description)}</h4>
