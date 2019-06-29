@@ -1,12 +1,15 @@
+import Moment from "moment";
+
 export default class Utils {
   static arrayToHtml(arr) {
     if (arr instanceof Array) {
-      let newLineWord = "<br>";
+      const NEW_LINE_WORD = "\n";
       let html = "";
       for (let line of arr) {
-        html += `${this.escapeHtml(line)}${newLineWord}`;
+        // html += `${this.escapeHtml(line)}${newLineWord}`;
+        html += `${line}${NEW_LINE_WORD}`;
       }
-      let lastIndex = html.lastIndexOf(newLineWord);
+      let lastIndex = html.lastIndexOf(NEW_LINE_WORD);
       html = html.substring(0, lastIndex);
       return html;
     } else {
@@ -37,5 +40,14 @@ export default class Utils {
       newArr.push(p);
     }
     return newArr;
+  }
+
+  static convMMMMYYYY(dateStr) {
+    let date = new Date(dateStr);
+    return Moment(date.toISOString()).format("MMMM YYYY");
+  }
+
+  static convVisibleToStr(visible) {
+    return visible ? "" : "none";
   }
 }
