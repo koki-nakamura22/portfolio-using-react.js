@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Utils from "./../utils/utils";
 import skillsTagsData from "./../../json/skills-tags.json";
 
 class SkillsTags extends Component {
@@ -7,8 +6,8 @@ class SkillsTags extends Component {
     let skillTagList = [];
     for (let skillsTag of skillsTagsData) {
       skillTagList.push(
-        <span key={Utils.escapeHtml(skillsTag.skill)} className="tag is-light">
-          {Utils.escapeHtml(skillsTag.skill)}
+        <span key={skillsTag.skill} className="tag is-light">
+          {skillsTag.skill}
         </span>
       );
     }

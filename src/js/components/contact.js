@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Utils from "../utils/utils";
 import profileData from "./../../json/profile.json";
 import contactData from "./../../json/contact.json";
 
@@ -57,10 +56,10 @@ class Contact extends Component {
             <div className="container">
               <div className="section-heading">
                 <h3 className="title is-2">
-                  {Utils.escapeHtml(contactData.title)}
+                  {contactData.title}
                 </h3>
                 <h4 className="subtitle is-5">
-                  {Utils.escapeHtml(contactData.subTitle)}
+                  {contactData.subTitle}
                 </h4>
               </div>
               <br />
@@ -70,7 +69,7 @@ class Contact extends Component {
                   <div className="box">
                     <div className="field">
                       <label className="label">
-                        {Utils.escapeHtml(contactData.nameLabel)}
+                        {contactData.nameLabel}
                       </label>
                       <div className="control">
                         <input
@@ -86,7 +85,7 @@ class Contact extends Component {
 
                     <div className="field">
                       <label className="label">
-                        {Utils.escapeHtml(contactData.subjectLabel)}
+                        {contactData.subjectLabel}
                       </label>
                       <div className="control">
                         <input
@@ -102,7 +101,7 @@ class Contact extends Component {
 
                     <div className="field">
                       <label className="label">
-                        {Utils.escapeHtml(contactData.messageLabel)}
+                        {contactData.messageLabel}
                       </label>
                       <div className="control">
                         <textarea
@@ -127,7 +126,7 @@ class Contact extends Component {
                             <i className="fas fa-envelope" />{" "}
                           </span>
                           <span>
-                            {Utils.escapeHtml(contactData.submitLabel)}
+                            {contactData.submitLabel}
                           </span>
                         </button>
                       </div>

@@ -6,7 +6,6 @@ export default class Utils {
       const NEW_LINE_WORD = "\n";
       let html = "";
       for (let line of arr) {
-        // html += `${this.escapeHtml(line)}${newLineWord}`;
         html += `${line}${NEW_LINE_WORD}`;
       }
       let lastIndex = html.lastIndexOf(NEW_LINE_WORD);

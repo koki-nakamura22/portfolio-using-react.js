@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Utils from './../utils/utils';
 import profileData from './../../json/profile.json';
 
 class Profile extends Component {
@@ -36,17 +35,15 @@ class Profile extends Component {
       let content = profileData[itemLabel];
       if (itemLabel === "phone") {
         if (navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)) {
-          content = <a href={"tel:" + Utils.escapeHtml(content.replace(/-/g, ''))}>{Utils.escapeHtml(content)}</a>
+          content = <a href={"tel:" + content.replace(/-/g, '')}>content}</a>
         }
         
       } else if (itemLabel === "email") {
-        content = <a href="#contact">{Utils.escapeHtml(content)}</a>;
-      } else {
-        content = Utils.escapeHtml(content);
+        content = <a href="#contact">{content}</a>;
       }
       profileItemList.push(
         <tr key={caption}>
-          <td>{Utils.escapeHtml(caption)}</td>
+          <td>{caption}</td>
           <td className="word-break-all">{content}</td>
         </tr>
       );
@@ -60,8 +57,8 @@ class Profile extends Component {
     if (links) {
       for (let link of links) {
         linkList.push(
-          <a key={link.url} href={Utils.escapeHtml(link.url)} className="button is-link" target="_blank" rel="noopener noreferrer">
-            {Utils.escapeHtml(link.caption)}
+          <a key={link.url} href={link.url} className="button is-link" target="_blank" rel="noopener noreferrer">
+            {link.caption}
           </a>
         );
       }

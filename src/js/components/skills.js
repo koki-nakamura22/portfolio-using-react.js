@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Utils from './../utils/utils';
 import skillsData from './../../json/skills.json';
 
 class Skills extends Component {
@@ -26,10 +25,10 @@ class Skills extends Component {
           <div className="media-content">
             <div className="content">
               <p>
-                <strong>{Utils.escapeHtml(skill.technology)}:</strong> <br />
+                <strong>{skill.technology}:</strong> <br />
                 <progress
                   className="progress is-primary"
-                  value={Utils.escapeHtml(skill.degreeOfSkill)}
+                  value={skill.degreeOfSkill}
                   max="100"
                 ></progress>
               </p>

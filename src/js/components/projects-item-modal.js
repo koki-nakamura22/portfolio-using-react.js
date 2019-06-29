@@ -14,7 +14,7 @@ class ProjectsItemModal extends Component {
 
   generateTitleHTMLCode(label) {
     return (
-      <h1 key={label}>{Utils.escapeHtml(label)}</h1>  
+      <h1 key={label}>{label}</h1>  
     )
   }
 
@@ -29,7 +29,7 @@ class ProjectsItemModal extends Component {
   generateTermHTMLCode(from, to) {
     return(
       <p key={from+to}>
-        {Utils.escapeHtml(Utils.convMMMMYYYY(from))} ~ {Utils.escapeHtml(Utils.convMMMMYYYY(to))}
+        {Utils.convMMMMYYYY(from)} ~ {Utils.convMMMMYYYY(to)}
       </p>
     )
   }
@@ -73,7 +73,7 @@ class ProjectsItemModal extends Component {
         <div className="modal-card">
           <header className="modal-card-head">
             <div className="modal-card-title">
-              { Utils.escapeHtml(this.projectData.projectName) }
+              { this.projectData.projectName }
             </div>
             <button
               className="delete"

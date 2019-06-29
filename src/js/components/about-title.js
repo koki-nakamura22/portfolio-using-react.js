@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Utils from './../utils/utils';
 import aboutTitleData from './../../json/about-title.json';
 import './../../css/aboutTitle.css'
 
@@ -9,8 +8,8 @@ class AboutTitle extends Component {
     return (
       <div id="about-title">
         <div className="section-heading">
-          <h3 className="title is-2">{Utils.escapeHtml(aboutTitleData.title)}</h3>
-          <h4 className="subtitle is-5">{Utils.escapeHtml(aboutTitleData.subTitle)}</h4>
+          <h3 className="title is-2">{aboutTitleData.title}</h3>
+          <h4 className="subtitle is-5">{aboutTitleData.subTitle}</h4>
           <div className="container">
             {
               aboutTitleData.selfIntroduction.map((e, i) => {

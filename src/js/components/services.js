@@ -18,7 +18,7 @@ class Services extends Component {
                 <div key={i} className="column">
                   <div className="box">
                     <div className="content">
-                      <h4 className="title is-5">{Utils.escapeHtml(e.title)}</h4>
+                      <h4 className="title is-5">{e.title}</h4>
                       {
                         e.detail instanceof Array ?
                           e.detail.map((e2, i2) => {
@@ -42,8 +42,8 @@ class Services extends Component {
     return (
       <div id="services" className="section">
         <div className="section-heading">
-          <h3 className="title is-2">{Utils.escapeHtml(servicesData.title)}</h3>
-          <h4 className="subtitle is-5">{Utils.escapeHtml(servicesData.description)}</h4>
+          <h3 className="title is-2">{servicesData.title}</h3>
+          <h4 className="subtitle is-5">{servicesData.description}</h4>
           <div className="container">
             { serviceList }
           </div>

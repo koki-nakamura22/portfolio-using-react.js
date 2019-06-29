@@ -28,24 +28,24 @@ class ProjectsItem extends Component {
         <div className="card">
           <header className="card-header">
             <p className="card-header-title">
-              {Utils.escapeHtml(this.projectData.projectName)}
+              {this.projectData.projectName}
             </p>
           </header>
             
           <div className="card-content">
             <div id="content" className="whitespace-pre-line">
               <div>
-                <strong>{Utils.escapeHtml(labels.summary)}</strong>
+                <strong>{labels.summary}</strong>
                 <p>{Utils.arrayToHtml(this.projectData.summary)}</p>
                 <br></br>
               </div>
               <div>
-                <strong>{Utils.escapeHtml(labels.term)}</strong>
-                <p>{Utils.escapeHtml(Utils.convMMMMYYYY(this.projectData.termFrom))} ~ {Utils.escapeHtml(Utils.convMMMMYYYY(this.projectData.termTo))}</p>
+                <strong>{labels.term}</strong>
+                <p>{Utils.convMMMMYYYY(this.projectData.termFrom)} ~ {Utils.convMMMMYYYY(this.projectData.termTo)}</p>
                 <br></br>
               </div>
               <div>
-                <strong>{Utils.escapeHtml(labels.usedProgrammingLanguageAndLibrary)}</strong>
+                <strong>{labels.usedProgrammingLanguageAndLibrary}</strong>
                 <p>{Utils.arrayToHtml(
                   Utils.convEmptyStrToNothing(
                     this.projectData.usedProgrammingLanguageAndLibrary

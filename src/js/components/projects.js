@@ -110,10 +110,10 @@ class Projects extends Component {
           <div className="container">
             <div className="section-heading">
               <h3 className="title is-2">
-                {Utils.escapeHtml(projectsData.title)}
+                {projectsData.title}
               </h3>
               <h4 className="subtitle is-5">
-                {Utils.escapeHtml(projectsData.subTitle)}
+                {projectsData.subTitle}
               </h4>
             </div>
             <br />
