@@ -4,24 +4,25 @@
   "services": [
     {
       "title": "Front-End Web Development",
-      "detail": "Develop Front-End using latest standards with HTML5/CSS3 with added functionality using JavaScript with jQuery or React.js."
+      "detail": "Developing Front-end by HTML5, CSS3,  JavaScript(jQuery, React.js or Vue.js) and Ruby on Rails."
     },
     {
       "title": "Back-End Web Development",
-      "detail": "Develop Back-End application using C#(ASP.NET Web API) or Java and Oracle Database or postgreSQL."
+      "detail": "Developing Back-end by C# (ASP.NET Web API) or Java with Oracle Database or PostgreSQL, Python with AWS services (Lambda, DynamoDB, SES, S3)."
     },
     {
       "title": "Windows Desktop Application Development",
       "detail": [
-        "Develop Windows Desktop Application using C# and Oracle Database or postgreSQL.",
-        "Or can develope without using a databases."
+        "Developing Windows Desktop Apps by C# with Oracle Database or PostgreSQL.",
+        "Or can developing without using any databases."
       ]
     },
     {
       "title": "Tech Lead",
       "detail": [
-        "Develop a framework for the project and create development rules.",
-        "Also support and educate project members and select the technology use in the project."
+        "Developing any frameworks and libraries for projects, also creating development rules.",
+        "Technical supporting and educating project members.",
+        "Technical research."
       ]
     }
   ]
