@@ -4,19 +4,19 @@
     "degreeOfSkill": "80"
   },
   {
-    "technology": "Java",
-    "degreeOfSkill": "50"
-  },
-  {
-    "technology": "HTML5/CSS",
+    "technology": "SQL",
     "degreeOfSkill": "70"
   },
   {
     "technology": "JavaScript",
-    "degreeOfSkill": "70"
+    "degreeOfSkill": "80"
   },
   {
-    "technology": "Databases",
-    "degreeOfSkill": "60"
+    "technology": "Ruby (Ruby on Rails)",
+    "degreeOfSkill": "50"
+  },
+  {
+    "technology": "Python",
+    "degreeOfSkill": "50"
   }
 ]
