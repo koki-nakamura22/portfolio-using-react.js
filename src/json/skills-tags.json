@@ -12,10 +12,10 @@
     "skill": "Visual Studio"
   },
   {
-    "skill": "Java"
+    "skill": "Visual Studio Code"
   },
   {
-    "skill": "Eclipse"
+    "skill": "Java"
   },
   {
     "skill": "SQL"
@@ -33,19 +33,16 @@
     "skill": "CSS3"
   },
   {
+    "skill": "JavaScript"
+  },
+  {
     "skill": "jQuery"
   },
   {
     "skill": "React.js"
   },
   {
-    "skill": "Bulma"
-  },
-  {
-    "skill": "Webpack"
-  },
-  {
-    "skill": "Node.js"
+    "skill": "Vue.js"
   },
   {
     "skill": "Oracle Database"
@@ -57,9 +54,6 @@
     "skill": "Git"
   },
   {
-    "skill": "Apache Subversion"
-  },
-  {
-    "skill": "Visual Studio Code"
+    "skill": "AWS"
   }
 ]
