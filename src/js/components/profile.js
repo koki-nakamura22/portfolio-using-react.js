@@ -35,7 +35,7 @@ class Profile extends Component {
       let content = profileData[itemLabel];
       if (itemLabel === "phone") {
         if (navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)) {
-          content = <a href={"tel:" + content.replace(/-/g, '')}>content}</a>
+          content = <a href={"tel:" + content.replace(/-/g, '')}>{content}</a>
         }
         
       } else if (itemLabel === "email") {
