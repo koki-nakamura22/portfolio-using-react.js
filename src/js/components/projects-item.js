@@ -41,7 +41,9 @@ class ProjectsItem extends Component {
               </div>
               <div>
                 <strong>{labels.term}</strong>
-                <p>{Utils.convMMMMYYYY(this.projectData.termFrom)} ~ {Utils.convMMMMYYYY(this.projectData.termTo)}</p>
+                <p>{Utils.convMMMMYYYY(this.projectData.termFrom)} ~ {
+                  this.projectData.termTo === 'Present' ? this.projectData.termTo : Utils.convMMMMYYYY(this.projectData.termTo)
+                }</p>
                 <br></br>
               </div>
               <div>

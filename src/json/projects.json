@@ -13,6 +13,61 @@
   },
   "projects": [
     {
+      "projectName": "Development of a web system for estimating language study cost",
+      "summary": "Developed the web system for estimating language study cost by new estimate rules.",
+      "termFrom": "2020/06",
+      "termTo": "Present",
+      "usedProgrammingLanguageAndLibrary": [
+        "HTML5 / CSS3 / JavaScript(ECMAScript6) / Vue.js / Nuxt.js",
+        "Python"
+      ],
+      "usedDatabase": "DynamoDB",
+      "usedTools": "Visual Studio Code / Git / AWS / Selenium",
+      "role": "Web Front-end and Back-end Developer",
+      "workInCharge": [
+        "- Developed the Front-end and Back-end functions.",
+        "- Made test rules and mechanisms.",
+        "- Provided technical support to project members."
+      ]
+    },
+    {
+      "projectName": "Research and validation of AWS, Vue.js and Nuxt.js for new project",
+      "summary": "Researched and did validation of AWS, Vue.js and Nuxt.js for new project.",
+      "termFrom": "2020/04",
+      "termTo": "2020/05",
+      "usedProgrammingLanguageAndLibrary": [
+        "HTML5 / CSS3 / JavaScript(ECMAScript6) / Vue.js / Nuxt.js",
+        "Python"
+      ],
+      "usedDatabase": "DynamoDB",
+      "usedTools": "Visual Studio Code / Git / AWS",
+      "role": "Web Front-end and Back-end Developer / Tech Lead",
+      "workInCharge": [
+        "- Developed PoC apps for validation.",
+        "- Made rules for development."
+      ]
+    },
+    {
+      "projectName": "Development of Teigaku Ryugaku Sytem",
+      "summary": [
+        "Developed Teigaku Ryugaku System.",
+        "https://teigakuryugaku.com/"
+      ],
+      "termFrom": "2019/09",
+      "termTo": "2020/03",
+      "usedProgrammingLanguageAndLibrary": [
+        "HTML5 / CSS3 / JavaScript(ECMAScript6) / jQuery / Vue.js",
+        "Ruby / Ruby on Rails"
+      ],
+      "usedDatabase": "PostgreSQL",
+      "usedTools": "Visual Studio Code / Git / Heroku / Selenium",
+      "role": "Web Front-end and Back-end Developer",
+      "workInCharge": [
+        "- Developed the Front-end and Back-end functions.",
+        "- Made test rule and mechanism."
+      ]
+    },
+    {
       "projectName": "Schedule management web system development for cleaning industry",
       "summary": "Developed the web system to enable semi-automatic execution of schedule management manually done on the Web system.",
       "termFrom": "2018/09",

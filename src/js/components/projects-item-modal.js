@@ -29,7 +29,9 @@ class ProjectsItemModal extends Component {
   generateTermHTMLCode(from, to) {
     return(
       <p key={from+to}>
-        {Utils.convMMMMYYYY(from)} ~ {Utils.convMMMMYYYY(to)}
+        {Utils.convMMMMYYYY(from)} ~ {
+        to === 'Present' ? to : Utils.convMMMMYYYY(to)
+      }
       </p>
     )
   }
