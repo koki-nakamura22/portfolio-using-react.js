@@ -14,7 +14,7 @@
   "projects": [
     {
       "projectName": "Schedule management web system development for cleaning industry",
-      "summary": "Web system development to enable semi-automatic execution of schedule management manually done on the Web system.",
+      "summary": "Developed the web system to enable semi-automatic execution of schedule management manually done on the Web system.",
       "termFrom": "2018/09",
       "termTo": "2018/10",
       "usedProgrammingLanguageAndLibrary": [
@@ -26,18 +26,18 @@
       "usedTools": "Eclipse / Tomcat / Apache Subversion",
       "role": "Web Front-end and Back-end Developer / Tech Lead",
       "workInCharge": [
-        "I did Mainly responsible for developing screens for users to schedule registration by drag & drop operation and development of Web API called from screen.",
+        "I did mainly responsible for developing screens for users to schedule registration by drag & drop operation and development of Web API called from screen.",
         "Also, I did following works.",
         "- Added functions to screens other than the responsible screen.",
-        "- Technically supported to project members.",
+        "- Provided technical support to project members.",
         "- Fixed original project framework."
       ]
     },
     {
       "projectName": "Cloud version processing machine monitoring system dashboard function addition renovation",
       "summary": [
-        "Added function to cloud version processing machine monitoring system dashboard.",
-        "Development of an application that creates a form based on data outputted from a dashboard."
+        "- Added function to the cloud version processing machine monitoring system dashboard.",
+        "- Developed of an app that creates a form based on data outputted from a dashboard."
       ],
       "termFrom": "2018/07",
       "termTo": "2018/09",
@@ -49,37 +49,35 @@
       "usedTools": "Eclipse / Tomcat / Excel / Apache Subversion",
       "role": "Web Front-end Developer",
       "workInCharge": [
-        "- Added function to web dashboard.",
-        "- Development of business form and macro on Excel"
+        "- Added function to the web dashboard.",
+        "- Developed a business form and macro on Excel"
       ]
     },
     {
       "projectName": "Cloud version processing machine monitoring system dashboard development",
-      "summary": "Development of Cloud version processing machine monitoring system dashboard to be used in several countries of the world.",
+      "summary": "Developed the cloud version processing machine monitoring system dashboard to be used in several countries of the world.",
       "termFrom": "2018/04",
       "termTo": "2018/06",
       "usedProgrammingLanguageAndLibrary": "HTML5 / CSS3 / JavaScript / jQuery",
       "usedDatabase": "Postgre SQL",
       "usedTools": "Visual Studio Code / Eclipse / pgAdmin / Apache Subversion",
       "role": "Web Front-end Developer",
-      "workInCharge": "- Development of web dashboard (Responsive design support)"
+      "workInCharge": "Developed the web dashboard. (Supporting responsive design, and several languages.)"
     },
     {
       "projectName": "Intranet version processing machine monitoring system dashboard development",
-      "summary": "Development of Intranet version processing machine monitoring system dashboard to be used in several countries of the world.",
+      "summary": "Developed the intranet version processing machine monitoring system dashboard to be used in several countries of the world.",
       "termFrom": "2017/11",
       "termTo": "2018/04",
       "usedProgrammingLanguageAndLibrary": "HTML5 / CSS3 / JavaScript / jQuery",
       "usedDatabase": "Postgre SQL",
       "usedTools": "Visual Studio Code / Eclipse / pgAdmin / Apache Subversion",
       "role": "Web Front-end Developer",
-      "workInCharge": [
-        "- Development of web dashboard (Responsive design support)"
-      ]
+      "workInCharge": "Developed the web dashboard. (Supporting responsive design, and several languages.)"
     },
     {
       "projectName": "PDM system operation support and maintenance",
-      "summary": "Operation support and maintenance of PDM system used in Japan.",
+      "summary": "Operation supported and maintained the PDM system used in Japan.",
       "termFrom": "2015/04",
       "termTo": "2017/10",
       "usedProgrammingLanguageAndLibrary": "C# / VB.NET / VB6 / SQL / PL/SQL / Oracle Forms",
@@ -87,15 +85,15 @@
       "usedTools": "Visual Studio 2005, 2013 / Visual Basic 6 / Object Browser / Apache Subversion",
       "role": "Desktop Application Developer  / Tech Lead",
       "workInCharge": [
-        "- Maintenance of Windows Desktop Application",
-        "- Customer support",
-        "- Education of project members",
-        "- Technical support for project members"
+        "- Maintained Windows Desktop Apps.",
+        "- Provided customer support.",
+        "- Educated project members.",
+        "- Provided technical support for project members."
       ]
     },
     {
-      "projectName": "PDM system replace",
-      "summary": "Replacement of PDM system due to expiration of server support.",
+      "projectName": "PDM system replacement",
+      "summary": "Replaced the PDM system due to expiration of server support.",
       "termFrom": "2015/08",
       "termTo": "2017/10",
       "usedProgrammingLanguageAndLibrary": "C# / VB6 / SQL / PL/SQL / Oracle Forms",
@@ -103,32 +101,29 @@
       "usedTools": "Visual Studio 2013 / Object Browser / TestComplete / Apache Subversion",
       "role": "Desktop Application Developer / Tech Lead",
       "workInCharge": [
-        "- Make development rule",
-        "- Development a original framework use in this project for replace business form's output application",
-        "- Make test rule and make that document",
-        "- Education of project members",
-        "- Technical support for project members",
-        "- develpment a replace desktop application (OracleForms -> C#)",
-        "- develpment a replace business form's output application (OracleForms / VB6 -> C#)"        
+        "- Made a development rule and related documents.",
+        "- Made a test rule and related documents.",
+        "- Developed an original framework for project that is to replace business form's output apps.",
+        "- Educated project members.",
+        "- Provided technical support for project members",
+        "- Developed replacement desktop apps. (OracleForms -> C#)",
+        "- Developed replacement business form's output apps. (OracleForms / VB6 -> C#)"
       ]
     },
     {
-      "projectName": "Drawing preview web system development",
-      "summary": "Development of the drawing preview Web system usable with a tablet terminal.",
+      "projectName": "Development drawing preview web system",
+      "summary": "Developed the drawing preview Web system usable with a tablet terminal.",
       "termFrom": "2017/07",
       "termTo": "2017/09",
       "usedProgrammingLanguageAndLibrary": "C# / Dapper / Oracle Data Provider for .NET",
       "usedDatabase": "Oracle Database",
       "usedTools": "Visual Studio 2013 / Object Browser / Apache Subversion",
       "role": "Tech Lead",
-      "workInCharge": [
-        "- Explanation of how to use own company standard C# framework",
-        "- Technical support for project members"
-      ]
+      "workInCharge": "Provided technical support for project members."
     },
     {
-      "projectName": "Development of our own company standard framework",
-      "summary": "Develop own company standard development framework of C# and Java.",
+      "projectName": "Development of our own company standard web framework",
+      "summary": "Developed own company standard web development framework of C# and Java.",
       "termFrom": "2017/01",
       "termTo": "2017/06",
       "usedProgrammingLanguageAndLibrary": "C# / Dapper / log4net / Oracle Data Provider for .NET / Npgsql",
@@ -136,16 +131,16 @@
       "usedTools": "Visual Studio 2013 / Apache Subversion",
       "role": "Developer",
       "workInCharge": [
-        "- Requirement Definition",
-        "- Investigate the library to use",
-        "- External / Internal design",
-        "- Own company standard C# framework development",
-        "- Creating a sample using own company standard C# framework"
+        "- Did requirement definition.",
+        "- Researched the library to use.",
+        "- Did external / internal design.",
+        "- Developed own company standard C# frameworks.",
+        "- Created some samples using own company standard C# framework."
       ]
     },
     {
-      "projectName": "Function porting from other system to PDM system",
-      "summary": "Function porting from other system to PDM system with the post transfer.",
+      "projectName": "Function porting from another system to the PDM system.",
+      "summary": "Function ported from another system to the PDM system.",
       "termFrom": "2016/10",
       "termTo": "2016/12",
       "usedProgrammingLanguageAndLibrary": "C# / VB6 / SQL / PL/SQL",
@@ -153,17 +148,17 @@
       "usedTools": "Visual Studio 2013 / Visual Basic 6 / Object Browser / Apache Subversion",
       "role": "Project Leader / Tech Lead / Desktop Application Developer",
       "workInCharge": [
-        "- Requirement Definition",
-        "- External / Internal design",
-        "- Development a data making function to output in business form",
-        "- Development a business form output function",
-        "- Design and make business form format",
-        "- Support and management for project member"
+        "- Did requirement definition.",
+        "- Did external / internal design.",
+        "- Developed data making functions to output in business forms.",
+        "- Developed business form output functions.",
+        "- Designed and made business form formats.",
+        "- Supported and managed for project members."
       ]
     },
     {
       "projectName": "Development of production control system for China",
-      "summary": "Development a system to cooperate the production management system of the China factory with the PDM system of Japan.",
+      "summary": "Developed a system to cooperate the production management system of the China factory with the PDM system of Japan.",
       "termFrom": "2016/02",
       "termTo": "2016/04",
       "usedProgrammingLanguageAndLibrary": "C#",
@@ -171,14 +166,14 @@
       "usedTools": "Visual Studio 2013 / Apache Subversion",
       "role": "Desktop Application Developer",
       "workInCharge": [
-        "- Two search screens development",
-        "- Two kinds of business form(Excel format) output function development",
-        "- Make a user manual"
+        "- Developed two search screens apps.",
+        "- Developed two business form (Excel format) output functions.",
+        "- Made a user manual"
       ]
     },
     {
-      "projectName": "Inventory management system development for Taiwan",
-      "summary": "Inventory management system development for Taiwan.",
+      "projectName": "Development of inventory management system for Taiwan",
+      "summary": "Developed inventory management system for Taiwan.",
       "termFrom": "2015/06",
       "termTo": "2015/07",
       "usedProgrammingLanguageAndLibrary": "C#",
@@ -186,13 +181,13 @@
       "usedTools": "Visual Studio 2013 / Apache Subversion",
       "role": "Desktop Application Developer",
       "workInCharge": [
-        "- Business form's make and output function development",
-        "- One screen desktop application development"
+        "- Developed business form's make and output functions.",
+        "- Developed an one screen desktop app"
       ]
     },
     {
       "projectName": "Development of business form development framework",
-      "summary": "Development of business form development framework for project member.",
+      "summary": "Developed of the business form development framework for project member.",
       "termFrom": "2015/06",
       "termTo": "2015/06",
       "usedProgrammingLanguageAndLibrary": "C#",
@@ -200,36 +195,35 @@
       "usedTools": "Visual Studio 2013 / VB-Report 8 / Apache Subversion",
       "role": "Tech Lead / Application Developer",
       "workInCharge": [
-        "- Investigation of VB-Report 8",
-        "- Design of business form development framework",
-        "- Development and maintenance a business form development framework"
+        "- Researched to VB-Report 8.",
+        "- Developed, designed and, maintained the business form development framework."
       ]
     },
     {
       "projectName": "Drawing management system testing",
-      "summary": "Drawing management system testing.",
+      "summary": "Tested the drawing management system.",
       "termFrom": "2015/04",
       "termTo": "2015/05",
       "usedProgrammingLanguageAndLibrary": "",
       "usedDatabase": "Oracle Database",
       "usedTools": "",
       "role": "Tester",
-      "workInCharge": "I did test based on the created test case and summarize the results."
+      "workInCharge": "Tested based on the created test cases and summarized the results."
     },
     {
       "projectName": "Accounting package soft testing",
-      "summary": "Accounting package soft testing.",
+      "summary": "Tested the accounting package soft.",
       "termFrom": "2015/03",
       "termTo": "2015/03",
       "usedProgrammingLanguageAndLibrary": "",
       "usedDatabase": "Unclear",
       "usedTools": "Secret",
       "role": "Tester",
-      "workInCharge": "I did test based on the created test case and summarize the results."
+      "workInCharge": "Tested based on the created test cases and summarized the results."
     },
     {
-      "projectName": "Development of function addition to production management system",
-      "summary": "Development of function addition to production management system.",
+      "projectName": "Development of function added to the production management system",
+      "summary": "Developed of function added to the production management system",
       "termFrom": "2015/02",
       "termTo": "2015/02",
       "usedProgrammingLanguageAndLibrary": "",
@@ -237,27 +231,24 @@
       "usedTools": "Visual Studio 2008",
       "role": "Desktop Application developer",
       "workInCharge": [
-        "- Specifications making of the function to add",
-        "- Development of additional functions"
+        "- Specifications making of the function to add.",
+        "- Developed of the additional functions."
       ]
     },
     {
-      "projectName": "System linkage infrastructure system testing for communication industry",
-      "summary": "Test of a system performing data cooperation between DB.",
+      "projectName": "Telecommunications Industry Infrastructure Linkage System Testing",
+      "summary": "Tested a system performing data cooperation between DB.",
       "termFrom": "2015/01",
       "termTo": "2015/01",
       "usedProgrammingLanguageAndLibrary": "SQL",
       "usedDatabase": "Oracle Database",
       "usedTools": "DataSpider Servista / Salesforce's product",
       "role": "Tester",
-      "workInCharge": "I did test based on the created test case and summarize the results."
+      "workInCharge": "Tested based on the created test cases and summarized the results."
     },
     {
-      "projectName": "Engineering works multiplication package software development",
-      "summary": [
-        "- Engineering works multiplication package software development and maintenance",
-        "- Engineering works multiplication package software's neighboring device development and maintenance"
-      ],
+      "projectName": "Development of civil engineering estimating package software",
+      "summary": "Developed and maintained of civil engineering estimating package software and related tools.",
       "termFrom": "2013/06",
       "termTo": "2014/12",
       "usedProgrammingLanguageAndLibrary": "C++(98, 11) / SQL / Excel VBA",
@@ -265,9 +256,10 @@
       "usedTools": "C++ Builder(5, XE3) / Excel 2010",
       "role": "Desktop Application Developer",
       "workInCharge": [
-        "- Development and maintenance a automatic version up tool for engineering works multiplication package software",
-        "- Development and maintenane a automatic data update tool used by engineering works multiplication package software",
-        "- Development and maintenane a Disposal ground judgment tool pro"
+        "Developed and maintained of the following software and tools.",
+        "- Civil engineering estimating package software (Technos V2)",
+        "- Data and version automatic update tool used by civil engineering estimating package software",
+        "- Disposal ground judgment tool pro"
       ]
     }
   ]
