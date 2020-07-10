@@ -14,7 +14,7 @@
   "projects": [
     {
       "projectName": "Development of a web system for estimating language study cost",
-      "summary": "Developed the web system for estimating language study cost by new estimate rules.",
+      "summary": "Development of the web system for estimating language study cost.",
       "termFrom": "2020/06",
       "termTo": "Present",
       "usedProgrammingLanguageAndLibrary": [
@@ -25,9 +25,10 @@
       "usedTools": "Visual Studio Code / Git / AWS / Selenium",
       "role": "Web Front-end and Back-end Developer",
       "workInCharge": [
-        "- Developed the Front-end and Back-end functions.",
-        "- Made test rules and mechanisms.",
-        "- Provided technical support to project members."
+        "I have been doing the following works.",
+        "- Developing the Front-end and Back-end functions.",
+        "- Making test rules and mechanisms.",
+        "- Providing technical support to project members."
       ]
     },
     {
