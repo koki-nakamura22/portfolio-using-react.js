@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bulma": "^0.7.4",
-    "moment": "^2.24.0",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5"
+    "bulma": "^0.9.3",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,8 +26,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "eslint-plugin-react": "^7.12.4",
-    "gh-pages": "^2.2.0"
+    "eslint-plugin-react": "^7.28.0",
+    "gh-pages": "^3.2.3"
   },
   "homepage": "https://koki-nakamura22.github.io/portfolio/"
 }
