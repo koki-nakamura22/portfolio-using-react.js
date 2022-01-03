@@ -1,5 +1,38 @@
 [
   {
+    "skill": "HTML5"
+  },
+  {
+    "skill": "CSS3"
+  },
+  {
+    "skill": "JavaScript"
+  },
+  {
+    "skill": "jQuery"
+  },
+  {
+    "skill": "Vue.js"
+  },
+  {
+    "skill": "Nuxt.js"
+  },
+  {
+    "skill": "Ruby"
+  },
+  {
+    "skill": "Ruby on Rails"
+  },
+  {
+    "skill": "PHP"
+  },
+  {
+    "skill": "Python"
+  },
+  {
+    "skill": "AWS"
+  },
+  {
     "skill": "C#"
   },
   {
@@ -7,12 +40,6 @@
   },
   {
     "skill": "ASP.NET Web API"
-  },
-  {
-    "skill": "Visual Studio"
-  },
-  {
-    "skill": "Visual Studio Code"
   },
   {
     "skill": "Java"
@@ -27,33 +54,18 @@
     "skill": "PL/pgSQL"
   },
   {
-    "skill": "HTML5"
-  },
-  {
-    "skill": "CSS3"
-  },
-  {
-    "skill": "JavaScript"
-  },
-  {
-    "skill": "jQuery"
-  },
-  {
-    "skill": "React.js"
-  },
-  {
-    "skill": "Vue.js"
-  },
-  {
     "skill": "Oracle Database"
   },
   {
     "skill": "PostgreSQL"
   },
   {
-    "skill": "Git"
+    "skill": "Visual Studio"
   },
   {
-    "skill": "AWS"
+    "skill": "Visual Studio Code"
+  },
+  {
+    "skill": "Git"
   }
 ]
