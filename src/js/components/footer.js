@@ -9,7 +9,7 @@ class Footer extends Component {
             <strong>Koki Nakamura's portfolio page</strong> by Koki Nakamura.
           </p>
           <p>
-            &copy; 2019-2020 Koki Nakamura
+            &copy; 2019-2022 Koki Nakamura
           </p>
           <p>
             The source code is licensed&nbsp;
