@@ -6,7 +6,7 @@ import Header from "./components/header";
 import About from "./components/about";
 import SkillsTags from "./components/skills-tags";
 import Services from "./components/services";
-import Resume from "./components/resume";
+import CV from "./components/cv";
 import Projects from "./components/projects";
 import Contract from "./components/contact";
 import Footer from "./components/footer";
@@ -25,7 +25,7 @@ class App extends Component {
 
         <Services />
 
-        <Resume />
+        <CV />
 
         <Projects />
 

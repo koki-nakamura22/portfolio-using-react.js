@@ -10,9 +10,9 @@
     "caption": "Services"
   },
   {
-    "link": "resume",
+    "link": "cv",
     "icon": "fas fa-file-alt",
-    "caption": "Resume"
+    "caption": "CV"
   },
   {
     "link": "projects",
