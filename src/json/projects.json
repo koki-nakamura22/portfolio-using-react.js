@@ -14,7 +14,10 @@
   "projects": [
     {
       "projectName": "MEDISTUDIO development",
-      "summary": "MEDISTUDIO development.",
+      "summary": [
+        "MEDISTUDIO development.",
+        "https://medistudio.com/"
+      ],
       "termFrom": "2021/07",
       "termTo": "2021/10",
       "usedProgrammingLanguageAndLibrary": [
@@ -33,7 +36,10 @@
     },
     {
       "projectName": "Development of a web system for estimating language study cost",
-      "summary": "Development of the web system for estimating language study cost.",
+      "summary": [
+        "Development of the web system for estimating language study cost.",
+        "https://www.world-avenue.co.jp/checker/"
+      ],
       "termFrom": "2020/06",
       "termTo": "2020/09",
       "usedProgrammingLanguageAndLibrary": [
