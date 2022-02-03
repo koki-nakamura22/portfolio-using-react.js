@@ -13,22 +13,64 @@
   },
   "projects": [
     {
+      "projectName": "MEDISTUDIO development",
+      "summary": "MEDISTUDIO development.",
+      "termFrom": "2021/07",
+      "termTo": "2021/10",
+      "usedProgrammingLanguageAndLibrary": [
+        "HTML5 / CSS3 / JavaScript(ECMAScript6) / Vue.js / Nuxt.js",
+        "Python"
+      ],
+      "usedDatabase": "DynamoDB",
+      "usedTools": "Visual Studio Code / Git / AWS",
+      "role": "Full-stack Web Developer",
+      "workInCharge": [
+        "- Developing the Front-end and Back-end functions.",
+        "- DB design.",
+        "- Infrastructure design.",
+        "- Providing technical support to project members."
+      ]
+    },
+    {
       "projectName": "Development of a web system for estimating language study cost",
       "summary": "Development of the web system for estimating language study cost.",
       "termFrom": "2020/06",
-      "termTo": "Present",
+      "termTo": "2020/09",
       "usedProgrammingLanguageAndLibrary": [
         "HTML5 / CSS3 / JavaScript(ECMAScript6) / Vue.js / Nuxt.js",
         "Python"
       ],
       "usedDatabase": "DynamoDB",
       "usedTools": "Visual Studio Code / Git / AWS / Selenium",
-      "role": "Web Front-end and Back-end Developer",
+      "role": "Full-stack Web Developer",
       "workInCharge": [
-        "I have been doing the following works.",
         "- Developing the Front-end and Back-end functions.",
+        "- DB design.",
+        "- Infrastructure design.",
         "- Making test rules and mechanisms.",
         "- Providing technical support to project members."
+      ]
+    },
+    {
+      "projectName": "Web sites maintenance",
+      "summary": [
+        "Following web sites maintenance.",
+        "- World Avenue sites",
+        "- Teigaku Ryugaku Sytem (https://teigakuryugaku.com/)",
+        "- Estimating language study cost system (https://www.world-avenue.co.jp/checker/)",
+        "- MEDISTUDIO (https://medistudio.com/)"
+      ],
+      "termFrom": "2020/04",
+      "termTo": "2022/01",
+      "usedProgrammingLanguageAndLibrary": [
+        "HTML5 / CSS3 / JavaScript(ECMAScript6) / Vue.js / Nuxt.js",
+        "PHP / Ruby / Ruby on Rails / Python"
+      ],
+      "usedDatabase": "PostgreSQL / DynamoDB",
+      "usedTools": "Visual Studio Code / Git",
+      "role": "Web Front-end and Back-end Developer",
+      "workInCharge": [
+        "- Mantening the Front-end and Back-end functions."
       ]
     },
     {
@@ -42,7 +84,7 @@
       ],
       "usedDatabase": "DynamoDB",
       "usedTools": "Visual Studio Code / Git / AWS",
-      "role": "Web Front-end and Back-end Developer / Tech Lead",
+      "role": "Full-stack Web Developer / Tech Lead",
       "workInCharge": [
         "- Developed PoC apps for validation.",
         "- Made rules for development."
